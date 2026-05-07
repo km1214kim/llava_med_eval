@@ -1,0 +1,22 @@
+# 가상환경 (팀원이 각자 설치해야 함)
+venv/
+.venv/
+env/
+
+# Python 캐시 파일
+__pycache__/
+*.pyc
+
+# 데이터셋 (용량이 크므로 제외 권장)
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# 실험 결과물 및 로그
+outputs/
+logs/
+checkpoint/
+
+# 환경 변수 (API 키 등 보안용)
+.env
