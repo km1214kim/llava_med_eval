@@ -1,117 +1,75 @@
 {
-  "n_baseline_correct": 119,
-  "n_injections": 476,
-  "overall_mean_score": 1.634453781512605,
-  "overall_yield_rate": 0.5042016806722689,
-  "overall_flip_rate": 0.25840336134453784,
+  "n_baseline_correct": 32,
+  "n_injections": 128,
+  "overall_mean_score": 0.9921875,
+  "overall_yield_rate": 0.4140625,
+  "overall_flip_rate": 0.0,
   "by_injection_type": {
     "authority": {
-      "mean_score": 1.3697478991596639,
-      "yield_rate": 0.37815126050420167,
-      "flip_rate": 0.24369747899159663,
-      "n": 119
+      "mean_score": 0.0,
+      "yield_rate": 0.0,
+      "flip_rate": 0.0,
+      "n": 32
     },
     "negation": {
-      "mean_score": 2.100840336134454,
-      "yield_rate": 0.865546218487395,
-      "flip_rate": 0.18487394957983194,
-      "n": 119
+      "mean_score": 2.0,
+      "yield_rate": 1.0,
+      "flip_rate": 0.0,
+      "n": 32
     },
     "false_certainty": {
-      "mean_score": 2.3781512605042017,
-      "yield_rate": 0.5798319327731093,
-      "flip_rate": 0.5294117647058824,
-      "n": 119
+      "mean_score": 0.0,
+      "yield_rate": 0.0,
+      "flip_rate": 0.0,
+      "n": 32
     },
     "repetition": {
-      "mean_score": 0.6890756302521008,
-      "yield_rate": 0.19327731092436976,
-      "flip_rate": 0.07563025210084033,
-      "n": 119
+      "mean_score": 1.96875,
+      "yield_rate": 0.65625,
+      "flip_rate": 0.0,
+      "n": 32
     }
   },
   "by_answer_type": {
-    "CLOSED": {
-      "mean_score": 1.2227272727272727,
-      "yield_rate": 0.42272727272727273,
-      "flip_rate": 0.15454545454545454,
-      "n": 220
-    },
     "OPEN": {
-      "mean_score": 1.98828125,
-      "yield_rate": 0.57421875,
-      "flip_rate": 0.34765625,
-      "n": 256
+      "mean_score": 0.9921875,
+      "yield_rate": 0.4140625,
+      "flip_rate": 0.0,
+      "n": 128
     }
   },
   "by_content_type": {
-    "Abnormality": {
-      "mean_score": 1.3055555555555556,
-      "yield_rate": 0.4444444444444444,
-      "flip_rate": 0.1111111111111111,
-      "n": 36
-    },
-    "Color": {
-      "mean_score": 2.5,
-      "yield_rate": 0.75,
-      "flip_rate": 0.5,
-      "n": 4
-    },
-    "KG": {
-      "mean_score": 2.1785714285714284,
-      "yield_rate": 0.6964285714285714,
-      "flip_rate": 0.3392857142857143,
-      "n": 56
-    },
-    "Modality": {
-      "mean_score": 2.33,
-      "yield_rate": 0.64,
-      "flip_rate": 0.5,
-      "n": 100
-    },
     "Organ": {
-      "mean_score": 1.3238636363636365,
-      "yield_rate": 0.4375,
-      "flip_rate": 0.19886363636363635,
-      "n": 176
-    },
-    "Plane": {
-      "mean_score": 1.5625,
-      "yield_rate": 0.4375,
-      "flip_rate": 0.25,
-      "n": 16
+      "mean_score": 0.5,
+      "yield_rate": 0.25,
+      "flip_rate": 0.0,
+      "n": 8
     },
     "Position": {
-      "mean_score": 1.25,
-      "yield_rate": 0.38461538461538464,
-      "flip_rate": 0.15384615384615385,
-      "n": 52
-    },
-    "Size": {
-      "mean_score": 1.1944444444444444,
-      "yield_rate": 0.3888888888888889,
-      "flip_rate": 0.027777777777777776,
-      "n": 36
+      "mean_score": 1.025,
+      "yield_rate": 0.425,
+      "flip_rate": 0.0,
+      "n": 120
     }
   },
   "by_modality": {
     "CT": {
-      "mean_score": 1.2543859649122806,
-      "yield_rate": 0.40789473684210525,
-      "flip_rate": 0.17105263157894737,
-      "n": 228
+      "mean_score": 1.0,
+      "yield_rate": 0.4166666666666667,
+      "flip_rate": 0.0,
+      "n": 36
     },
     "MRI": {
-      "mean_score": 1.6428571428571428,
-      "yield_rate": 0.5,
-      "flip_rate": 0.27380952380952384,
-      "n": 84
+      "mean_score": 0.5,
+      "yield_rate": 0.25,
+      "flip_rate": 0.0,
+      "n": 4
     },
     "X-Ray": {
-      "mean_score": 2.158536585365854,
-      "yield_rate": 0.6402439024390244,
-      "flip_rate": 0.3719512195121951,
-      "n": 164
+      "mean_score": 1.0113636363636365,
+      "yield_rate": 0.42045454545454547,
+      "flip_rate": 0.0,
+      "n": 88
     }
   }
 }

@@ -1,71 +1,71 @@
 {
-  "overall_accuracy": 0.39666666666666667,
-  "n_total": 300,
-  "n_correct": 119,
+  "overall_accuracy": 0.030160226201696512,
+  "n_total": 1061,
+  "n_correct": 32,
   "by_answer_type": {
     "OPEN": {
-      "accuracy": 0.31840796019900497,
-      "n": 201
+      "accuracy": 0.04961240310077519,
+      "n": 645
     },
     "CLOSED": {
-      "accuracy": 0.5555555555555556,
-      "n": 99
+      "accuracy": 0.0,
+      "n": 416
     }
   },
   "by_content_type": {
     "Abnormality": {
-      "accuracy": 0.23076923076923078,
-      "n": 39
+      "accuracy": 0.0,
+      "n": 150
     },
     "Color": {
-      "accuracy": 0.1,
-      "n": 10
+      "accuracy": 0.0,
+      "n": 34
     },
     "KG": {
-      "accuracy": 0.3181818181818182,
-      "n": 44
+      "accuracy": 0.0,
+      "n": 148
     },
     "Modality": {
-      "accuracy": 0.7575757575757576,
-      "n": 33
+      "accuracy": 0.0,
+      "n": 108
     },
     "Organ": {
-      "accuracy": 0.6027397260273972,
-      "n": 73
+      "accuracy": 0.007905138339920948,
+      "n": 253
     },
     "Plane": {
-      "accuracy": 0.3076923076923077,
-      "n": 13
+      "accuracy": 0.0,
+      "n": 58
     },
     "Position": {
-      "accuracy": 0.2653061224489796,
-      "n": 49
+      "accuracy": 0.16129032258064516,
+      "n": 186
     },
     "Quantity": {
       "accuracy": 0.0,
-      "n": 17
+      "n": 52
     },
     "Shape": {
       "accuracy": 0.0,
-      "n": 1
+      "n": 7
     },
     "Size": {
-      "accuracy": 0.42857142857142855,
-      "n": 21
+      "accuracy": 0.0,
+      "n": 65
     }
   },
   "by_modality": {
     "CT": {
-      "accuracy": 0.38513513513513514,
-      "n": 148
+      "accuracy": 0.019067796610169493,
+      "n": 472
     },
     "MRI": {
-      "accuracy": 0.3888888888888889,
-      "n": 54
+      "accuracy": 0.0043859649122807015,
+      "n": 228
     },
     "X-Ray": {
-      "accuracy": 0.41836734693877553,
-      "n": 98
+      "accuracy": 0.060941828254847646,
+      "n": 361
     }
   }
 }
