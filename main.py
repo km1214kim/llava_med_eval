@@ -52,7 +52,7 @@ logger = logging.getLogger("main")
 
 from config import load_config
 from data.loader import load_dataset
-from model.llava_med import LLaVAMedModel
+from model.medvlm_r1 import LLaVAMedModel # 변경 부분 : model.llava_med => medvlm_r1 
 from experiments.multistep import run_multistep_experiment
 from experiments.sycophancy import run_sycophancy_experiment
 from evaluation.judge import GPT4oJudge

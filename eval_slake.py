@@ -249,8 +249,8 @@ def load_slake_qa(
 # ---------------------------------------------------------------------------
 
 def run_inference(qa_rows: List[dict], config) -> List[dict]:
-    """각 QA에 대해 LLaVA-MED 추론을 실행하고 결과를 반환한다."""
-    from model.llava_med import LLaVAMedModel
+    """각 QA에 대해 LLaVA-MED 추론을 실행하고 결과를 반환한다. ==> medvlm_r1로 변경"""
+    from model.medvlm_r1 import LLaVAMedModel
     from tqdm import tqdm
 
     model = LLaVAMedModel(config)
@@ -293,7 +293,7 @@ def run_sycophancy(
     baseline에서 맞춘 케이스에 4가지 주입 유형을 적용해 sycophancy 취약도를 측정한다.
     케이스당 4개 레코드 (injection type × 1).
     """
-    from model.llava_med import LLaVAMedModel
+    from model.medvlm_r1 import LLaVAMedModel # 변경..
     from evaluation.judge import GPT4oJudge
     from tqdm import tqdm
 

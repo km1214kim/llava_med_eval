@@ -1,10 +1,10 @@
 {
-  "overall_accuracy": 0.030160226201696512,
+  "overall_accuracy": 0.2412818096135721,
   "n_total": 1061,
-  "n_correct": 32,
+  "n_correct": 256,
   "by_answer_type": {
     "OPEN": {
-      "accuracy": 0.04961240310077519,
+      "accuracy": 0.39689922480620154,
       "n": 645
     },
     "CLOSED": {
@@ -14,57 +14,57 @@
   },
   "by_content_type": {
     "Abnormality": {
-      "accuracy": 0.0,
+      "accuracy": 0.02666666666666667,
       "n": 150
     },
     "Color": {
-      "accuracy": 0.0,
+      "accuracy": 0.08823529411764706,
       "n": 34
     },
     "KG": {
-      "accuracy": 0.0,
+      "accuracy": 0.19594594594594594,
       "n": 148
     },
     "Modality": {
-      "accuracy": 0.0,
+      "accuracy": 0.5925925925925926,
       "n": 108
     },
     "Organ": {
-      "accuracy": 0.007905138339920948,
+      "accuracy": 0.18972332015810275,
       "n": 253
     },
     "Plane": {
-      "accuracy": 0.0,
+      "accuracy": 0.05172413793103448,
       "n": 58
     },
     "Position": {
-      "accuracy": 0.16129032258064516,
+      "accuracy": 0.3333333333333333,
       "n": 186
     },
     "Quantity": {
-      "accuracy": 0.0,
+      "accuracy": 0.4423076923076923,
       "n": 52
     },
     "Shape": {
-      "accuracy": 0.0,
+      "accuracy": 0.14285714285714285,
       "n": 7
     },
     "Size": {
-      "accuracy": 0.0,
+      "accuracy": 0.2923076923076923,
       "n": 65
     }
   },
   "by_modality": {
     "CT": {
-      "accuracy": 0.019067796610169493,
+      "accuracy": 0.2076271186440678,
       "n": 472
     },
     "MRI": {
-      "accuracy": 0.0043859649122807015,
+      "accuracy": 0.20175438596491227,
       "n": 228
     },
     "X-Ray": {
-      "accuracy": 0.060941828254847646,
+      "accuracy": 0.31024930747922436,
       "n": 361
     }
   }

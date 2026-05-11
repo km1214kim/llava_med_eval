@@ -9,7 +9,7 @@ from typing import List
 @dataclass
 class Config:
     # 모델
-    model_path: str = "microsoft/llava-med-v1.5-mistral-7b"
+    model_path: str = "JZPeterPan/MedVLM-R1" # 변경부
 
     # 데이터셋 ("iu_xray" | "slake")
     dataset: str = "iu_xray"
